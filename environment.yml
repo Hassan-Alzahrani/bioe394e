@@ -1,0 +1,31 @@
+name: bioe394e-env
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - datashader
+  - gh
+  - git
+  - holoviews
+  - ipywidgets
+  - jupyterlab
+  - jupyterlab-git
+  - jupyterlab-lsp
+  - matplotlib
+  - nbgitpuller
+  - numba
+  - panel
+  - pip
+  - pip:
+    - -r requirements.txt
+  - python
+  - python-language-server
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - torch
+  - torchvision
+  - imageio
