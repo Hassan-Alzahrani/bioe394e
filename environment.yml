@@ -13,7 +13,6 @@ dependencies:
   - jupyterlab
   - jupyterlab-git
   - jupyterlab-lsp
-  - matplotlib
   - nbgitpuller
   - numba
   - panel
