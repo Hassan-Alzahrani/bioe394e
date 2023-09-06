@@ -10,6 +10,14 @@ dependencies:
   - pytorch
   - torchvision
   - imageio
+  - gh
+  - git
+  - holoviews
+  - hvplot
+  - ipywidgets
+  - jupyterlab
+  - jupyterlab-git
+  - jupyterlab-lsp
   - pip:
     - -r requirements.txt
     - nbgitpuller
