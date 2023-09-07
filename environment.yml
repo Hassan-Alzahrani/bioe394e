@@ -5,6 +5,7 @@ channels:
 dependencies:
   - numpy
   - scipy
+  - dask
   - pandas
   - scikit-learn
   - pytorch
