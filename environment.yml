@@ -9,9 +9,6 @@ dependencies:
   - bokeh
   - pandas
   - scikit-learn
-  - pytorch
-  - torchvision
-  - cudatoolkit
   - imageio
   - gh
   - git
@@ -23,5 +20,11 @@ dependencies:
   - jupyterlab-lsp
   - pip:
     - -r requirements.txt
-    - nbgitpuller
-    - nbviewer
+  - nbgitpuller
+  - nbviewer
+  - pyarrow
+  - python
+  - python-language-server
+  - pyviz_comms
+  - torch
+  - torchvision
