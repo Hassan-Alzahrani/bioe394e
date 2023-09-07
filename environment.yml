@@ -15,13 +15,13 @@ dependencies:
   - holoviews
   - hvplot
   - ipywidgets
+  - nbgitpuller
+  - nbviewer
   - jupyterlab
   - jupyterlab-git
   - jupyterlab-lsp
   - pip:
     - -r requirements.txt
-  - nbgitpuller
-  - nbviewer
   - pyarrow
   - python
   - python-language-server
