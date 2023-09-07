@@ -16,7 +16,6 @@ dependencies:
   - hvplot
   - ipywidgets
   - nbgitpuller
-  - nbviewer
   - jupyterlab
   - jupyterlab-git
   - jupyterlab-lsp
@@ -26,5 +25,3 @@ dependencies:
   - python
   - python-language-server
   - pyviz_comms
-  - torch
-  - torchvision
