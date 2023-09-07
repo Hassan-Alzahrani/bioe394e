@@ -1,13 +1,19 @@
-name: xgboost-env
-
+name: myenv
 channels:
-  - conda-forge
   - defaults
-
+  - conda-forge
 dependencies:
-  - bokeh
+  - numpy
+  - scipy
   - dask
-  - datashader
+  - bokeh
+  - pandas
+  - scikit-learn
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cudatoolkit
+  - imageio
   - gh
   - git
   - holoviews
@@ -15,20 +21,8 @@ dependencies:
   - ipywidgets
   - jupyterlab
   - jupyterlab-git
-  - jupyterlab-nvdashboard
   - jupyterlab-lsp
-  - matplotlib
-  - nbgitpuller
-  - numba
-  - numpy
-  - panel
-  - pip
   - pip:
     - -r requirements.txt
-  - pyarrow
-  - python
-  - python-language-server
-  - pyviz_comms
-  - scikit-learn
-  - wandb
-  - xgboost
+    - nbgitpuller
+    - nbviewer
